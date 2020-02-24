@@ -1,0 +1,31 @@
+form{
+    display: inline-block;
+    width: 100%;
+}
+
+    .form-raw{
+            display: inline-block;
+            width: 100%;
+            margin-bottom:30px;
+    }
+        .form-row:first-of-type{
+            margin-bottom: 0;
+        }
+            label{
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+                color: gray;
+                line-height: 20px;
+                font-size: 14px;
+            }
+            input{
+                display: inline-block;
+                width: 100%;
+                border: none;
+                border-bottom: solid 2px gray;
+                color: #333;
+                line-height: 30px;
+                font-size: 18px;
+            }

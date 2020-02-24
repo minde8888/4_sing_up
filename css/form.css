@@ -6,7 +6,6 @@ form{
         display: inline-block;
         text-transform: uppercase;
         color:gray;
-        /*padding: 20px;*/
         border-color: grey;
         font-size: 12px;
         line-height: 20px;
@@ -20,7 +19,6 @@ form{
         border: none;
         border-bottom: 1px solid gray;
         width: 100%;
-        /*background-color: blueviolet;*/
         line-height: 30px;
     }
     .form-raw-b{
@@ -30,7 +28,7 @@ form{
         margin-top: 20px;
         width: 100%;
         background-color: hotpink;
-    }
+     }
         .btn{
             border: 1px solid gray;
             border-radius: 20px;
@@ -40,17 +38,22 @@ form{
             font-size: 16px;
             line-height: 30px;
             width:150px;
+            cursor: pointer;
         }
-        .form-raw-b{
+        .form-raw-b * {
             width: 100%;
             display: inline-block;
             line-height: 20px;
+            float: left;
         }
             .form-raw-b span {
                 background-color: honeydew;
-                margin-left: 290px;
+                margin-left: 200px;
+                float: right;
+                width: 50px;
             }
             .form-raw-b a {
-                background-color: honeydew;
-                float: right;
+                color:blue;
+               
+                text-decoration: none;
             }
